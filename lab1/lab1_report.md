@@ -38,11 +38,33 @@ Date of finished:
 Создаем приватный и публичный ключи
 <p align="center"><img src="https://github.com/user-attachments/assets/3d8594d1-04f5-4930-9125-1cafb482e078" width=700></p>
 
-Далее создаем файл конфигурации интерфейса wireguard
-<p align="center"><img src="https://github.com/user-attachments/assets/3ac7242b-b78e-44da-9c2e-7f2a4e899c2b" width=700></p>
+Далее создаем файл конфигурации интерфейса wireguard, указываем в публичном ключе публиный ключ роутера, полученный в WinBox
+<p align="center"><img src="https://github.com/user-attachments/assets/576a1bb6-160e-45fa-b991-0ebb77a6629a" width=700></p>
 
-Запускаем wireguard на сервере
-<p align="center"><img src="https://github.com/user-attachments/assets/14f692a0-2ebd-4c1c-8abe-289379f0bece" width=700></p>
+Создаем peer в WinBox, указывая публичный ключ сгенерированный на ВМ и endpoint - ip ВМ, allowed address - адрес, прописанный в конфигурационном файле
+<p align="center"><img src="https://github.com/user-attachments/assets/3aec1f7f-7ef2-41ec-ab1e-48f82e9bf7ff" width=700></p>
+
+Запускаем wireguard на ВМ
+<p align="center"><img src="https://github.com/user-attachments/assets/08457dae-af4d-47da-8f36-86fe3203321b" width=700></p>
+
+Далее тестируем соединение
+Сервер - Клиент
+<p align="center"><img src="https://github.com/user-attachments/assets/fb2eff0f-459b-498e-8a94-51e15150778b" width=700></p>
+
+Клиент - Сервер
+<p align="center"><img src="https://github.com/user-attachments/assets/549327bd-3352-47c1-a252-2b10e8df8322" width=700></p>
+
+Проверка интернет соединения с сервера
+<p align="center"><img src="https://github.com/user-attachments/assets/b29d37de-3f25-4891-871b-47c201b8dc46" width=700></p>
+
+Проверка интернет соединения с клиента
+<p align="center"><img src="https://github.com/user-attachments/assets/dc97f148-1243-4d69-8dc9-73cb5857eaa6" width=700></p>
+
+### Вывод
+В данной лабораторной работе был поднят сервер с помощью Yandex Cloud и CHR с помощью VirtualBox. Далее были настроены wireguard интерфейсы с помощью WinBox и файла конфигурации и произведена проверка соединения между клиентом и сервером.
+
+
+
 
 
 
