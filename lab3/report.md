@@ -3,10 +3,10 @@ Faculty: [FICT](https://fict.itmo.ru)
 Course: [Network programming](https://github.com/itmo-ict-faculty/network-programming)  
 Year: 2024/2025  
 Group: K34212  
-Author: Aukhadyev Ruslan Radikovich 
-Lab: Lab3  
-Date of create: 17.03.2024
-Date of finished: 17.03.2024  
+Author: Aukhadyev Ruslan Radikovich   
+Lab: Lab3    
+Date of create: 17.03.2025  
+Date of finished: 17.03.2025  
 
 ## Отчёт о Лабораторной работе №3 <br>"Развертывание Netbox, сеть связи как источник правды в системе технического учета Netbox"
 
