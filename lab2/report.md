@@ -4,7 +4,7 @@ Course: [Network programming](https://github.com/itmo-ict-faculty/network-progra
 Year: 2024/2025  
 Group: K34212  
 Author: Aukhadyev Ruslan Radikovich  
-Lab: Lab2
+Lab: Lab2   
 Date of create: 17.03.2025  
 Date of finished: 17.03.2025
 
