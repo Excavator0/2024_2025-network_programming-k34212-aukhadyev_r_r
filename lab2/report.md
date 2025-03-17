@@ -3,10 +3,10 @@ Faculty: [FICT](https://fict.itmo.ru)
 Course: [Network programming](https://github.com/itmo-ict-faculty/network-programming)  
 Year: 2024/2025  
 Group: K34212  
-Author: Aukhadyev Ruslan Radikovich 
+Author: Aukhadyev Ruslan Radikovich  
 Lab: Lab2
-Date of create: 17.03.2025
-Date of finished: 17.03.2025  
+Date of create: 17.03.2025  
+Date of finished: 17.03.2025
 
 ## Отчёт о Лабораторной работе №2 <br>"Развертывание дополнительного CHR, первый сценарий Ansible"
 
